@@ -28,19 +28,19 @@ body {
 
 /* Увеличим иконки внутри кнопок */
 .plyr__controls button svg {
-  width: 28px;
-  height: 28px;
+  width: 56px;
+  height: 56px;
 }
 
 /* Увеличим размер прогресс-бара */
 .plyr__progress {
-  height: 10px;
-  border-radius: 5px;
+  height: 20px;
+  border-radius: 10px;
 }
 
 /* Увеличим высоту плеера */
 .plyr {
-  font-size: 18px; /* увеличит размеры текста */
+  font-size: 38px; /* увеличит размеры текста */
 }
 
 
