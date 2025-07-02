@@ -5,6 +5,8 @@ body {
   background-color: #f8f8f8;
 }
 .cover {
-  max-width: 90%;
-  margin: 20px 0;
+  width: 300px; /* например, 300px */
+  height: auto;
+  margin: 20px auto;
+  display: block;
 }
