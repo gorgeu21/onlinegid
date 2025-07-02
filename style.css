@@ -6,15 +6,15 @@ body {
 }
 
 .cover {
-  width: 600px !important;
-  height: 600px !important;
+  width: 300px !important;
+  height: auto !important;
   margin: 20px auto !important;
   display: block !important;
   max-width: 90% !important;
 }
 
 #player, .plyr {
-  max-width: 280px !important;
+  max-width: 300px !important;
   width: 100% !important;
   margin: 20px auto !important;
   display: block !important;
@@ -26,6 +26,6 @@ body {
   }
 
   #player, .plyr {
-    max-width: 90% !important;
+    max-width: 100% !important;
   }
 }
