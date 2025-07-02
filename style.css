@@ -21,26 +21,26 @@ body {
 }
 /* Увеличим размер кнопок */
 .plyr__controls button {
-  width: 100px;
-  height: 100px;
-  font-size: 56px;
+  width: 50px;
+  height: 50px;
+  font-size: 28px;
 }
 
 /* Увеличим иконки внутри кнопок */
 .plyr__controls button svg {
-  width: 56px;
-  height: 56px;
+  width: 28px;
+  height: 28px;
 }
 
 /* Увеличим размер прогресс-бара */
 .plyr__progress {
-  height: 500px;
-  border-radius: 20px;
+  height: 10px;
+  border-radius: 5px;
 }
 
 /* Увеличим высоту плеера */
 .plyr {
-  font-size: 76px; /* увеличит размеры текста */
+  font-size: 18px; /* увеличит размеры текста */
 }
 
 
