@@ -20,7 +20,7 @@ body {
   display: block !important;
 }
 
-@media (max-width: 680px) {
+@media (max-width: 880px) {
   .cover {
     width: 90% !important;
   }
