@@ -4,9 +4,31 @@ body {
   padding: 20px;
   background-color: #f8f8f8;
 }
+
+/* Изображение */
 .cover {
-  width: 300px; /* например, 300px */
-  height: 100px;
+  width: 300px;
+  height: auto;
   margin: 20px auto;
   display: block;
+  max-width: 90%;
+}
+
+/* Плеер */
+#player {
+  max-width: 300px;
+  width: 100%;
+  margin: 20px auto;
+  display: block;
+}
+
+/* Мобильные устройства — экраны до 480px */
+@media (max-width: 480px) {
+  .cover {
+    width: 90%; /* изображение почти во всю ширину */
+  }
+
+  #player {
+    max-width: 100%; /* плеер тоже растягивается под ширину */
+  }
 }
