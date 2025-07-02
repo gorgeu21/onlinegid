@@ -5,30 +5,29 @@ body {
   background-color: #f8f8f8;
 }
 
-/* Изображение */
 .cover {
-  width: 300px;
-  height: auto;
-  margin: 20px auto;
-  display: block;
-  max-width: 90%;
+  width: 300px !important;
+  height: auto !important;
+  margin: 20px auto !important;
+  display: block !important;
+  max-width: 90% !important;
+  border: 2px solid red; /* для проверки */
 }
 
-/* Плеер */
-#player {
-  max-width: 150px;
-  width: 10%;
-  margin: 20px auto;
-  display: block;
+#player, .plyr {
+  max-width: 300px !important;
+  width: 100% !important;
+  margin: 20px auto !important;
+  display: block !important;
+  border: 2px solid blue; /* для проверки */
 }
 
-/* Мобильные устройства — экраны до 480px */
 @media (max-width: 480px) {
   .cover {
-    width: 90%; /* изображение почти во всю ширину */
+    width: 90% !important;
   }
 
-  #player {
-    max-width: 100%; /* плеер тоже растягивается под ширину */
+  #player, .plyr {
+    max-width: 100% !important;
   }
 }
