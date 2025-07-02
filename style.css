@@ -35,12 +35,13 @@ body {
 /* Увеличим размер прогресс-бара */
 .plyr__progress {
   height: 50px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 /* Увеличим высоту плеера */
 .plyr {
   font-size: 76px; /* увеличит размеры текста */
+  border-radius: 20px;
 }
 
 
