@@ -34,7 +34,7 @@ body {
 
 /* Увеличим размер прогресс-бара */
 .plyr__progress {
-  height: 50px;
+  height: 500px;
   border-radius: 20px;
 }
 
