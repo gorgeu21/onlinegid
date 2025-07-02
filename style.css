@@ -14,7 +14,7 @@ body {
 }
 
 #player, .plyr {
-  max-width: 300px !important;
+  max-width: 680px !important;
   width: 100% !important;
   margin: 20px auto !important;
   display: block !important;
