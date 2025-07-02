@@ -11,7 +11,7 @@ body {
   margin: 20px auto !important;
   display: block !important;
   max-width: 90% !important;
-  border: 2px solid red; /* для проверки */
+  border: 2px solid red; /* для проверки, потом убрать */
 }
 
 #player, .plyr {
@@ -19,7 +19,7 @@ body {
   width: 100% !important;
   margin: 20px auto !important;
   display: block !important;
-  border: 2px solid blue; /* для проверки */
+  border: 2px solid blue; /* для проверки, потом убрать */
 }
 
 @media (max-width: 480px) {
